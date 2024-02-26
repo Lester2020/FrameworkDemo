@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		025469022B8C91FF006DF209 /* YZNetworkKits.h in Headers */ = {isa = PBXBuildFile; fileRef = 025469012B8C91FF006DF209 /* YZNetworkKits.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0254692E2B8C9355006DF209 /* TestTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025469282B8C9355006DF209 /* TestTools.swift */; };
+		0254692F2B8C9355006DF209 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254692A2B8C9355006DF209 /* BaseResponse.swift */; };
+		025469302B8C9355006DF209 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254692B2B8C9355006DF209 /* String+Extension.swift */; };
+		025469312B8C9355006DF209 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254692C2B8C9355006DF209 /* NetworkRequest.swift */; };
+		025469322B8C9355006DF209 /* ApiPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254692D2B8C9355006DF209 /* ApiPath.swift */; };
+		B7B93BA89F90ED0750F8735F /* Pods_YZNetworkKits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ABD95B21FEF8E0249AB1F14 /* Pods_YZNetworkKits.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		025468FE2B8C91FF006DF209 /* YZNetworkKits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YZNetworkKits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		025469012B8C91FF006DF209 /* YZNetworkKits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZNetworkKits.h; sourceTree = "<group>"; };
+		025469282B8C9355006DF209 /* TestTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTools.swift; sourceTree = "<group>"; };
+		0254692A2B8C9355006DF209 /* BaseResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		0254692B2B8C9355006DF209 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		0254692C2B8C9355006DF209 /* NetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		0254692D2B8C9355006DF209 /* ApiPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiPath.swift; sourceTree = "<group>"; };
+		3ABD95B21FEF8E0249AB1F14 /* Pods_YZNetworkKits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YZNetworkKits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BFB9D73F3D7E88A39EC811 /* Pods-Base-YZNetworkKits.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Base-YZNetworkKits.release.xcconfig"; path = "Target Support Files/Pods-Base-YZNetworkKits/Pods-Base-YZNetworkKits.release.xcconfig"; sourceTree = "<group>"; };
+		737C9A43AC807FE30F23CAAC /* Pods-Base-YZNetworkKits.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Base-YZNetworkKits.debug.xcconfig"; path = "Target Support Files/Pods-Base-YZNetworkKits/Pods-Base-YZNetworkKits.debug.xcconfig"; sourceTree = "<group>"; };
+		B8831376D35D0DFBFB190116 /* Pods-YZNetworkKits.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZNetworkKits.release.xcconfig"; path = "Target Support Files/Pods-YZNetworkKits/Pods-YZNetworkKits.release.xcconfig"; sourceTree = "<group>"; };
+		D6E612761E1F283044F5CEE5 /* Pods-YZNetworkKits.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZNetworkKits.debug.xcconfig"; path = "Target Support Files/Pods-YZNetworkKits/Pods-YZNetworkKits.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		025468FB2B8C91FF006DF209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B93BA89F90ED0750F8735F /* Pods_YZNetworkKits.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		025468F42B8C91FF006DF209 = {
+			isa = PBXGroup;
+			children = (
+				025469002B8C91FF006DF209 /* YZNetworkKits */,
+				025468FF2B8C91FF006DF209 /* Products */,
+				68DAEF7138209A67BF668B88 /* Pods */,
+				B53D420D9FDC4783DABCB2D2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		025468FF2B8C91FF006DF209 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				025468FE2B8C91FF006DF209 /* YZNetworkKits.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		025469002B8C91FF006DF209 /* YZNetworkKits */ = {
+			isa = PBXGroup;
+			children = (
+				025469292B8C9355006DF209 /* Alamofire */,
+				025469282B8C9355006DF209 /* TestTools.swift */,
+				025469012B8C91FF006DF209 /* YZNetworkKits.h */,
+			);
+			path = YZNetworkKits;
+			sourceTree = "<group>";
+		};
+		025469292B8C9355006DF209 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				0254692A2B8C9355006DF209 /* BaseResponse.swift */,
+				0254692B2B8C9355006DF209 /* String+Extension.swift */,
+				0254692C2B8C9355006DF209 /* NetworkRequest.swift */,
+				0254692D2B8C9355006DF209 /* ApiPath.swift */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		68DAEF7138209A67BF668B88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				737C9A43AC807FE30F23CAAC /* Pods-Base-YZNetworkKits.debug.xcconfig */,
+				67BFB9D73F3D7E88A39EC811 /* Pods-Base-YZNetworkKits.release.xcconfig */,
+				D6E612761E1F283044F5CEE5 /* Pods-YZNetworkKits.debug.xcconfig */,
+				B8831376D35D0DFBFB190116 /* Pods-YZNetworkKits.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		B53D420D9FDC4783DABCB2D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3ABD95B21FEF8E0249AB1F14 /* Pods_YZNetworkKits.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		025468F92B8C91FF006DF209 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025469022B8C91FF006DF209 /* YZNetworkKits.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		025468FD2B8C91FF006DF209 /* YZNetworkKits */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 025469052B8C91FF006DF209 /* Build configuration list for PBXNativeTarget "YZNetworkKits" */;
+			buildPhases = (
+				D14E56C5C7348C537B5ED695 /* [CP] Check Pods Manifest.lock */,
+				025468F92B8C91FF006DF209 /* Headers */,
+				025468FA2B8C91FF006DF209 /* Sources */,
+				025468FB2B8C91FF006DF209 /* Frameworks */,
+				025468FC2B8C91FF006DF209 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YZNetworkKits;
+			productName = YZNetworkKits;
+			productReference = 025468FE2B8C91FF006DF209 /* YZNetworkKits.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		025468F52B8C91FF006DF209 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					025468FD2B8C91FF006DF209 = {
+						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
+					};
+				};
+			};
+			buildConfigurationList = 025468F82B8C91FF006DF209 /* Build configuration list for PBXProject "YZNetworkKits" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 025468F42B8C91FF006DF209;
+			productRefGroup = 025468FF2B8C91FF006DF209 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				025468FD2B8C91FF006DF209 /* YZNetworkKits */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		025468FC2B8C91FF006DF209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D14E56C5C7348C537B5ED695 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YZNetworkKits-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		025468FA2B8C91FF006DF209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0254692E2B8C9355006DF209 /* TestTools.swift in Sources */,
+				025469302B8C9355006DF209 /* String+Extension.swift in Sources */,
+				025469312B8C9355006DF209 /* NetworkRequest.swift in Sources */,
+				0254692F2B8C9355006DF209 /* BaseResponse.swift in Sources */,
+				025469322B8C9355006DF209 /* ApiPath.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		025469032B8C91FF006DF209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		025469042B8C91FF006DF209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		025469062B8C91FF006DF209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6E612761E1F283044F5CEE5 /* Pods-YZNetworkKits.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lester.demo.YZNetworkKits;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		025469072B8C91FF006DF209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8831376D35D0DFBFB190116 /* Pods-YZNetworkKits.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lester.demo.YZNetworkKits;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		025468F82B8C91FF006DF209 /* Build configuration list for PBXProject "YZNetworkKits" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025469032B8C91FF006DF209 /* Debug */,
+				025469042B8C91FF006DF209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		025469052B8C91FF006DF209 /* Build configuration list for PBXNativeTarget "YZNetworkKits" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025469062B8C91FF006DF209 /* Debug */,
+				025469072B8C91FF006DF209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 025468F52B8C91FF006DF209 /* Project object */;
+}
