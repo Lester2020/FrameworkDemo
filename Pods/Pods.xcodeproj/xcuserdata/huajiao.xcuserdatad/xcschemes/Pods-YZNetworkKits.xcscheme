@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8DB3E0D337F45FD13F67AF28A4B43446"
-               BuildableName = "Pods_YZNetworkKits.framework"
+               BuildableName = "libPods-YZNetworkKits.a"
                BlueprintName = "Pods-YZNetworkKits"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

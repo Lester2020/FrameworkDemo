@@ -4,15 +4,37 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AggregatedFramework.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
 		<key>YZNetworkKits.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>1</integer>
+		</dict>
+		<key>YZNetworkSDK.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>9</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>025468FD2B8C91FF006DF209</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0291FD262B8DC80F00023CD7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0291FD2D2B8DE4C600023CD7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

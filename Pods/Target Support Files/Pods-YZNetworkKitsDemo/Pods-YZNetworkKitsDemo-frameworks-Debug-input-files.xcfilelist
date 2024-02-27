@@ -1,3 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-YZNetworkKitsDemo/Pods-YZNetworkKitsDemo-frameworks.sh
-${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
-${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework
+${BUILT_PRODUCTS_DIR}/Alamofire-framework/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/HandyJSON-framework/HandyJSON.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework

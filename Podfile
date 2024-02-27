@@ -1,24 +1,26 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
 platform :ios, '14.0'
-use_frameworks!
 #use_modular_headers!
 
 workspace 'YZNetworkSDK.xcworkspace'
 
 target 'YZNetworkKits' do
-  project 'YZNetworkKits/YZNetworkKits.xcodeproj'
+project 'YZNetworkKits/YZNetworkKits.xcodeproj'
   
+#  use_frameworks!
   pod 'HandyJSON'
   pod 'Alamofire'
   
 end
 
 target 'YZNetworkKitsDemo' do
-  project 'YZNetworkKitsDemo/YZNetworkKitsDemo.xcodeproj'
+project 'YZNetworkKitsDemo/YZNetworkKitsDemo.xcodeproj'
   
+  use_frameworks!
   pod 'HandyJSON'
   pod 'Alamofire'
+  pod 'SnapKit'
   
 end
 
@@ -39,25 +41,19 @@ end
 #
 #abstract_target 'Base' do
 #  
-#  target 'YZNetworkKits' do
-#    project 'YZNetworkKits/YZNetworkKits.xcodeproj'
-#    
-#    platform :ios, '14.0'
-#    use_frameworks!
-#    
-#    pod 'HandyJSON'
-#    pod 'Alamofire'
-#    
-#  end
+#  platform :ios, '14.0'
+#  use_frameworks!
+#  
+#  pod 'HandyJSON'
+#  pod 'Alamofire'
 #  
 #  target 'YZNetworkKitsDemo' do
 #    project 'YZNetworkKitsDemo/YZNetworkKitsDemo.xcodeproj'
 #    
-#    platform :ios, '14.0'
-#    use_frameworks!
-#    
-#    pod 'HandyJSON'
-#    pod 'Alamofire'
+#  end
+#  
+#  target 'YZNetworkKits' do
+#    project 'YZNetworkKits/YZNetworkKits.xcodeproj'
 #    
 #  end
 #  

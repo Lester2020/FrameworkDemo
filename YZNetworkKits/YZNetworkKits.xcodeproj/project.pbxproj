@@ -6,6 +6,21 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		0291FD2D2B8DE4C600023CD7 /* AggregatedFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0291FD2E2B8DE4C600023CD7 /* Build configuration list for PBXAggregateTarget "AggregatedFramework" */;
+			buildPhases = (
+				0291FD332B8DE4F000023CD7 /* ShellScript */,
+			);
+			dependencies = (
+				0291FD322B8DE4E700023CD7 /* PBXTargetDependency */,
+			);
+			name = AggregatedFramework;
+			productName = AggregatedFramework;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		025469022B8C91FF006DF209 /* YZNetworkKits.h in Headers */ = {isa = PBXBuildFile; fileRef = 025469012B8C91FF006DF209 /* YZNetworkKits.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0254692E2B8C9355006DF209 /* TestTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025469282B8C9355006DF209 /* TestTools.swift */; };
@@ -13,8 +28,18 @@
 		025469302B8C9355006DF209 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254692B2B8C9355006DF209 /* String+Extension.swift */; };
 		025469312B8C9355006DF209 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254692C2B8C9355006DF209 /* NetworkRequest.swift */; };
 		025469322B8C9355006DF209 /* ApiPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254692D2B8C9355006DF209 /* ApiPath.swift */; };
-		B7B93BA89F90ED0750F8735F /* Pods_YZNetworkKits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ABD95B21FEF8E0249AB1F14 /* Pods_YZNetworkKits.framework */; };
+		240F30894B9E3D076D5DC3EE /* libPods-YZNetworkKits.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8140EB83B9D582F0355A9CE9 /* libPods-YZNetworkKits.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0291FD312B8DE4E700023CD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 025468F52B8C91FF006DF209 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 025468FD2B8C91FF006DF209;
+			remoteInfo = YZNetworkKits;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		025468FE2B8C91FF006DF209 /* YZNetworkKits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YZNetworkKits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,11 +49,11 @@
 		0254692B2B8C9355006DF209 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		0254692C2B8C9355006DF209 /* NetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
 		0254692D2B8C9355006DF209 /* ApiPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiPath.swift; sourceTree = "<group>"; };
-		3ABD95B21FEF8E0249AB1F14 /* Pods_YZNetworkKits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YZNetworkKits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31FA58270C7B28056E502B22 /* Pods-YZNetworkKits.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZNetworkKits.debug.xcconfig"; path = "Target Support Files/Pods-YZNetworkKits/Pods-YZNetworkKits.debug.xcconfig"; sourceTree = "<group>"; };
+		4D3547CD4B74C63A92DD635A /* Pods-YZNetworkKits.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZNetworkKits.release.xcconfig"; path = "Target Support Files/Pods-YZNetworkKits/Pods-YZNetworkKits.release.xcconfig"; sourceTree = "<group>"; };
 		67BFB9D73F3D7E88A39EC811 /* Pods-Base-YZNetworkKits.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Base-YZNetworkKits.release.xcconfig"; path = "Target Support Files/Pods-Base-YZNetworkKits/Pods-Base-YZNetworkKits.release.xcconfig"; sourceTree = "<group>"; };
 		737C9A43AC807FE30F23CAAC /* Pods-Base-YZNetworkKits.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Base-YZNetworkKits.debug.xcconfig"; path = "Target Support Files/Pods-Base-YZNetworkKits/Pods-Base-YZNetworkKits.debug.xcconfig"; sourceTree = "<group>"; };
-		B8831376D35D0DFBFB190116 /* Pods-YZNetworkKits.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZNetworkKits.release.xcconfig"; path = "Target Support Files/Pods-YZNetworkKits/Pods-YZNetworkKits.release.xcconfig"; sourceTree = "<group>"; };
-		D6E612761E1F283044F5CEE5 /* Pods-YZNetworkKits.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZNetworkKits.debug.xcconfig"; path = "Target Support Files/Pods-YZNetworkKits/Pods-YZNetworkKits.debug.xcconfig"; sourceTree = "<group>"; };
+		8140EB83B9D582F0355A9CE9 /* libPods-YZNetworkKits.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YZNetworkKits.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7B93BA89F90ED0750F8735F /* Pods_YZNetworkKits.framework in Frameworks */,
+				240F30894B9E3D076D5DC3EE /* libPods-YZNetworkKits.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,8 +112,8 @@
 			children = (
 				737C9A43AC807FE30F23CAAC /* Pods-Base-YZNetworkKits.debug.xcconfig */,
 				67BFB9D73F3D7E88A39EC811 /* Pods-Base-YZNetworkKits.release.xcconfig */,
-				D6E612761E1F283044F5CEE5 /* Pods-YZNetworkKits.debug.xcconfig */,
-				B8831376D35D0DFBFB190116 /* Pods-YZNetworkKits.release.xcconfig */,
+				31FA58270C7B28056E502B22 /* Pods-YZNetworkKits.debug.xcconfig */,
+				4D3547CD4B74C63A92DD635A /* Pods-YZNetworkKits.release.xcconfig */,
 			);
 			name = Pods;
 			path = ../Pods;
@@ -97,7 +122,7 @@
 		B53D420D9FDC4783DABCB2D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3ABD95B21FEF8E0249AB1F14 /* Pods_YZNetworkKits.framework */,
+				8140EB83B9D582F0355A9CE9 /* libPods-YZNetworkKits.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -148,6 +173,9 @@
 						CreatedOnToolsVersion = 15.2;
 						LastSwiftMigration = 1520;
 					};
+					0291FD2D2B8DE4C600023CD7 = {
+						CreatedOnToolsVersion = 15.2;
+					};
 				};
 			};
 			buildConfigurationList = 025468F82B8C91FF006DF209 /* Build configuration list for PBXProject "YZNetworkKits" */;
@@ -164,6 +192,7 @@
 			projectRoot = "";
 			targets = (
 				025468FD2B8C91FF006DF209 /* YZNetworkKits */,
+				0291FD2D2B8DE4C600023CD7 /* AggregatedFramework */,
 			);
 		};
 /* End PBXProject section */
@@ -179,6 +208,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0291FD332B8DE4F000023CD7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nSCHEME_NAME=\"YZNetworkKits\"\nFRAMEWORK_NAME=\"YZNetworkKits\"\nSIMULATOR_ARCHIVE_PATH=\"${BUILD_DIR}/${CONFIGURATION}/${FRAMEWORK_NAME}-iphonesimulator.xcarchive\"\nDEVICE_ARCHIVE_PATH=\"${BUILD_DIR}/${CONFIGURATION}/${FRAMEWORK_NAME}-iphoneos.xcarchive\"\nOUTPUT_DIC=\"./xcframework/\"\n# Simulator xcarchieve\nxcodebuild archive \\\n  -scheme ${SCHEME_NAME} \\\n  -archivePath ${SIMULATOR_ARCHIVE_PATH} \\\n  -sdk iphonesimulator \\\n  SKIP_INSTALL=NO\n# Device xcarchieve\nxcodebuild archive \\\n  -scheme ${SCHEME_NAME} \\\n  -archivePath ${DEVICE_ARCHIVE_PATH} \\\n  -sdk iphoneos \\\n  SKIP_INSTALL=NO\n# Clean up old output directory\nrm -rf \"${OUTPUT_DIC}\"\n# Create xcframwork combine of all frameworks\nxcodebuild -create-xcframework \\\n  -framework ${SIMULATOR_ARCHIVE_PATH}/Products/Library/Frameworks/${FRAMEWORK_NAME}.framework \\\n  -framework ${DEVICE_ARCHIVE_PATH}/Products/Library/Frameworks/${FRAMEWORK_NAME}.framework \\\n  -output ${OUTPUT_DIC}/${FRAMEWORK_NAME}.xcframework\n";
+		};
 		D14E56C5C7348C537B5ED695 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -217,6 +263,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0291FD322B8DE4E700023CD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 025468FD2B8C91FF006DF209 /* YZNetworkKits */;
+			targetProxy = 0291FD312B8DE4E700023CD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		025469032B8C91FF006DF209 /* Debug */ = {
@@ -346,7 +400,7 @@
 		};
 		025469062B8C91FF006DF209 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6E612761E1F283044F5CEE5 /* Pods-YZNetworkKits.debug.xcconfig */;
+			baseConfigurationReference = 31FA58270C7B28056E502B22 /* Pods-YZNetworkKits.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -371,6 +425,15 @@
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
 				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"HandyJSON\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lester.demo.YZNetworkKits;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -383,7 +446,7 @@
 		};
 		025469072B8C91FF006DF209 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8831376D35D0DFBFB190116 /* Pods-YZNetworkKits.release.xcconfig */;
+			baseConfigurationReference = 4D3547CD4B74C63A92DD635A /* Pods-YZNetworkKits.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -407,12 +470,39 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"HandyJSON\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lester.demo.YZNetworkKits;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0291FD2F2B8DE4C600023CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0291FD302B8DE4C600023CD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -433,6 +523,15 @@
 			buildConfigurations = (
 				025469062B8C91FF006DF209 /* Debug */,
 				025469072B8C91FF006DF209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0291FD2E2B8DE4C600023CD7 /* Build configuration list for PBXAggregateTarget "AggregatedFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0291FD2F2B8DE4C600023CD7 /* Debug */,
+				0291FD302B8DE4C600023CD7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

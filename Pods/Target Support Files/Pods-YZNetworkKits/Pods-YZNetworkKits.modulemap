@@ -1,4 +1,4 @@
-framework module Pods_YZNetworkKits {
+module Pods_YZNetworkKits {
   umbrella header "Pods-YZNetworkKits-umbrella.h"
 
   export *

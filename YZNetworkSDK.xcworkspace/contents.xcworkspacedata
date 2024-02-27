@@ -2,10 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:YZNetworkKitsDemo/YZNetworkKitsDemo.xcodeproj">
+      location = "group:YZNetworkKits/YZNetworkKits.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:YZNetworkKits/YZNetworkKits.xcodeproj">
+      location = "group:YZNetworkKitsDemo/YZNetworkKitsDemo.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
