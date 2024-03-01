@@ -42,13 +42,16 @@ end
 #abstract_target 'Base' do
 #  
 #  platform :ios, '14.0'
-#  use_frameworks!
 #  
 #  pod 'HandyJSON'
 #  pod 'Alamofire'
 #  
 #  target 'YZNetworkKitsDemo' do
 #    project 'YZNetworkKitsDemo/YZNetworkKitsDemo.xcodeproj'
+#    
+#    use_frameworks!
+#    
+#    pod 'HandyJSON'
 #    
 #  end
 #  
@@ -67,4 +70,4 @@ end
 #  end
 #  
 #end
-#
+

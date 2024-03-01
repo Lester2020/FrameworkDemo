@@ -13,8 +13,8 @@
 		0254691C2B8C9236006DF209 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0254691A2B8C9236006DF209 /* Main.storyboard */; };
 		0254691E2B8C9237006DF209 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0254691D2B8C9237006DF209 /* Assets.xcassets */; };
 		025469212B8C9237006DF209 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0254691F2B8C9237006DF209 /* LaunchScreen.storyboard */; };
-		0291FCAC2B8DB90500023CD7 /* YZNetworkKits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0291FCAA2B8D7E4000023CD7 /* YZNetworkKits.framework */; };
-		90B0C73B4E3A0E9E63A4F72B /* Pods_YZNetworkKitsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8595CB83DF8A2E59F725E41A /* Pods_YZNetworkKitsDemo.framework */; };
+		029FE5112B91A5A1004BD89E /* YZNetworkKits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029FE5102B91A5A1004BD89E /* YZNetworkKits.framework */; };
+		F2DF78907C4D7BC2FEEED731 /* Pods_YZNetworkKitsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0850A16EC68BCA9A92C0828 /* Pods_YZNetworkKitsDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,11 +28,12 @@
 		025469222B8C9237006DF209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0291FC7A2B8C93D300023CD7 /* YZNetworkKits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YZNetworkKits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0291FCAA2B8D7E4000023CD7 /* YZNetworkKits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YZNetworkKits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		029FE5102B91A5A1004BD89E /* YZNetworkKits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YZNetworkKits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BD21D56077EE07DA83493B0 /* Pods-YZNetworkKitsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZNetworkKitsDemo.debug.xcconfig"; path = "Target Support Files/Pods-YZNetworkKitsDemo/Pods-YZNetworkKitsDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		525F5C4165303EC6BD2DAE37 /* Pods-Base-YZNetworkKitsDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Base-YZNetworkKitsDemo.debug.xcconfig"; path = "Target Support Files/Pods-Base-YZNetworkKitsDemo/Pods-Base-YZNetworkKitsDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		5FB5AF8CD4A1B66E66C13A47 /* Pods-YZNetworkKitsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZNetworkKitsDemo.release.xcconfig"; path = "Target Support Files/Pods-YZNetworkKitsDemo/Pods-YZNetworkKitsDemo.release.xcconfig"; sourceTree = "<group>"; };
-		8595CB83DF8A2E59F725E41A /* Pods_YZNetworkKitsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YZNetworkKitsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89A0477C6194F4FC8B1A0CB9 /* Pods-Base-YZNetworkKitsDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Base-YZNetworkKitsDemo.release.xcconfig"; path = "Target Support Files/Pods-Base-YZNetworkKitsDemo/Pods-Base-YZNetworkKitsDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A0850A16EC68BCA9A92C0828 /* Pods_YZNetworkKitsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YZNetworkKitsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,8 +41,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90B0C73B4E3A0E9E63A4F72B /* Pods_YZNetworkKitsDemo.framework in Frameworks */,
-				0291FCAC2B8DB90500023CD7 /* YZNetworkKits.framework in Frameworks */,
+				F2DF78907C4D7BC2FEEED731 /* Pods_YZNetworkKitsDemo.framework in Frameworks */,
+				029FE5112B91A5A1004BD89E /* YZNetworkKits.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,9 +96,10 @@
 		97770EA1B32AAE24E17640CD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				029FE5102B91A5A1004BD89E /* YZNetworkKits.framework */,
 				0291FCAA2B8D7E4000023CD7 /* YZNetworkKits.framework */,
 				0291FC7A2B8C93D300023CD7 /* YZNetworkKits.framework */,
-				8595CB83DF8A2E59F725E41A /* Pods_YZNetworkKitsDemo.framework */,
+				A0850A16EC68BCA9A92C0828 /* Pods_YZNetworkKitsDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

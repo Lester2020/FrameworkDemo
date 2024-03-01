@@ -11,10 +11,8 @@
 			isa = PBXAggregateTarget;
 			buildConfigurationList = 0291FD2E2B8DE4C600023CD7 /* Build configuration list for PBXAggregateTarget "AggregatedFramework" */;
 			buildPhases = (
-				0291FD332B8DE4F000023CD7 /* ShellScript */,
 			);
 			dependencies = (
-				0291FD322B8DE4E700023CD7 /* PBXTargetDependency */,
 			);
 			name = AggregatedFramework;
 			productName = AggregatedFramework;
@@ -28,18 +26,8 @@
 		025469302B8C9355006DF209 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254692B2B8C9355006DF209 /* String+Extension.swift */; };
 		025469312B8C9355006DF209 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254692C2B8C9355006DF209 /* NetworkRequest.swift */; };
 		025469322B8C9355006DF209 /* ApiPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0254692D2B8C9355006DF209 /* ApiPath.swift */; };
-		240F30894B9E3D076D5DC3EE /* libPods-YZNetworkKits.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8140EB83B9D582F0355A9CE9 /* libPods-YZNetworkKits.a */; };
+		4066C97D0444EC04BB67646B /* libPods-YZNetworkKits.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B10263F8BE85620CBD72324 /* libPods-YZNetworkKits.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		0291FD312B8DE4E700023CD7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 025468F52B8C91FF006DF209 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 025468FD2B8C91FF006DF209;
-			remoteInfo = YZNetworkKits;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		025468FE2B8C91FF006DF209 /* YZNetworkKits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YZNetworkKits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,7 +41,7 @@
 		4D3547CD4B74C63A92DD635A /* Pods-YZNetworkKits.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZNetworkKits.release.xcconfig"; path = "Target Support Files/Pods-YZNetworkKits/Pods-YZNetworkKits.release.xcconfig"; sourceTree = "<group>"; };
 		67BFB9D73F3D7E88A39EC811 /* Pods-Base-YZNetworkKits.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Base-YZNetworkKits.release.xcconfig"; path = "Target Support Files/Pods-Base-YZNetworkKits/Pods-Base-YZNetworkKits.release.xcconfig"; sourceTree = "<group>"; };
 		737C9A43AC807FE30F23CAAC /* Pods-Base-YZNetworkKits.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Base-YZNetworkKits.debug.xcconfig"; path = "Target Support Files/Pods-Base-YZNetworkKits/Pods-Base-YZNetworkKits.debug.xcconfig"; sourceTree = "<group>"; };
-		8140EB83B9D582F0355A9CE9 /* libPods-YZNetworkKits.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YZNetworkKits.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B10263F8BE85620CBD72324 /* libPods-YZNetworkKits.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YZNetworkKits.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				240F30894B9E3D076D5DC3EE /* libPods-YZNetworkKits.a in Frameworks */,
+				4066C97D0444EC04BB67646B /* libPods-YZNetworkKits.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,7 +110,7 @@
 		B53D420D9FDC4783DABCB2D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8140EB83B9D582F0355A9CE9 /* libPods-YZNetworkKits.a */,
+				7B10263F8BE85620CBD72324 /* libPods-YZNetworkKits.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -208,23 +196,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0291FD332B8DE4F000023CD7 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nSCHEME_NAME=\"YZNetworkKits\"\nFRAMEWORK_NAME=\"YZNetworkKits\"\nSIMULATOR_ARCHIVE_PATH=\"${BUILD_DIR}/${CONFIGURATION}/${FRAMEWORK_NAME}-iphonesimulator.xcarchive\"\nDEVICE_ARCHIVE_PATH=\"${BUILD_DIR}/${CONFIGURATION}/${FRAMEWORK_NAME}-iphoneos.xcarchive\"\nOUTPUT_DIC=\"./xcframework/\"\n# Simulator xcarchieve\nxcodebuild archive \\\n  -scheme ${SCHEME_NAME} \\\n  -archivePath ${SIMULATOR_ARCHIVE_PATH} \\\n  -sdk iphonesimulator \\\n  SKIP_INSTALL=NO\n# Device xcarchieve\nxcodebuild archive \\\n  -scheme ${SCHEME_NAME} \\\n  -archivePath ${DEVICE_ARCHIVE_PATH} \\\n  -sdk iphoneos \\\n  SKIP_INSTALL=NO\n# Clean up old output directory\nrm -rf \"${OUTPUT_DIC}\"\n# Create xcframwork combine of all frameworks\nxcodebuild -create-xcframework \\\n  -framework ${SIMULATOR_ARCHIVE_PATH}/Products/Library/Frameworks/${FRAMEWORK_NAME}.framework \\\n  -framework ${DEVICE_ARCHIVE_PATH}/Products/Library/Frameworks/${FRAMEWORK_NAME}.framework \\\n  -output ${OUTPUT_DIC}/${FRAMEWORK_NAME}.xcframework\n";
-		};
 		D14E56C5C7348C537B5ED695 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -263,14 +234,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0291FD322B8DE4E700023CD7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 025468FD2B8C91FF006DF209 /* YZNetworkKits */;
-			targetProxy = 0291FD312B8DE4E700023CD7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		025469032B8C91FF006DF209 /* Debug */ = {
